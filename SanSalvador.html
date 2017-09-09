@@ -1,0 +1,261 @@
+<!DOCTYPE>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<title>Departamento de San Salvador</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://maps.googleapis.com/maps/api/js?size=400x400&path=fillcolor:0xAA000033%7Ccolor:0xFFFFFF00%7C&key=AIzaSyAwJa0xE53XCf6oDpl6JoN8RiATx7MEzdw&callback=myMap"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<link href="css/styles.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript"  src="js/Sansalvador.js" ></script>
+</head>
+
+<body>
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="index.html"><span class="glyphicon glyphicon-home"></span></a>
+    </div>
+    
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active">Inicio</a></li>
+        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Zona Central<span class="caret"></span></a>
+         <ul class="dropdown-menu">
+          <li><a href="LaLibertad.html">La Libertad</a></li>
+          <li><a href="Chalatenango.html">Chalatenango</a></li>
+          <li><a href="Cuscatlan.html">Cuscatlán</a></li>
+          <li><a href="SanSalvador.html">San Salvador</a></li>
+          <li><a href="la paz.html">La Paz</a></li>
+          <li><a href="cabanas.html">Cabañas</a></li>
+          <li><a href="SanVicente.html">San Vicente</a></li>
+        </ul>
+        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Zona Occidental<span class="caret"></span></a>
+         <ul class="dropdown-menu">
+          <li><a href="ahuachapan.html">Ahuachapán</a></li>
+          <li><a href="santa_ana.html">Santa Ana</a></li>
+          <li><a href="sonsonate.html">Sonsonate</a></li>
+        </ul>
+        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Zona Oriental<span class="caret"></span></a>
+         <ul class="dropdown-menu">
+          <li><a href="usulutan.html">Usulután</a></li>
+          <li><a href="san miguel.html">San Miguel</a></li>
+          <li><a href="morazan.html">Morazán</a></li>
+          <li><a href="la union.html">La Unión</a></li>
+        </ul>
+            
+      </ul>
+     
+    </div>
+  </div>
+</nav>
+
+
+<div id="header">
+<div id="logo"><!--creacion del id en el cual se colocara como un header el nombre del departamento-->
+<h1 style="text-align: center;">San Salvador</h1>
+</div>
+<div id="splash">
+	
+<div id="googleMap" class = "google" style=""></div>	
+<!--<slider de algunas img de los depa.>-->
+
+<div = id="reg">
+
+
+<!--Creacion del slider-->
+<div class="slider"   >
+  <img class="mySlides" src="images/san.png" >
+  <img class="mySlides" src="images/san1.jpg"      >
+  <img class="mySlides" src="images/san2.png"     >
+    <img class="mySlides" src="images/san3.jpg"     >
+</div>
+
+</div>
+
+<!-- Inicio de la pagina -->
+
+<div id="pagina"><!-- id donde se agregara la informacion de la pagina-->
+<div id="contenedor">
+<div class="post">
+<h1 class="tittle">Historia de San Salvador</h1>
+<p class="descr">Su nombre antiguo fue Quetzalcoatitán, cuyo significado es “tierra de quetzales”, posiblemente porque en la antigüedad esta zona estaba bastante poblada de esas bellas aves. Es el departamento más antiguo de El Salvador; fue fundado como capital de la República en 1525, o sea hace más de 400 años. </br>
+
+Tres siglos después, el 12 de junio de 1824, fue elevado a la categoría de departamento. Otro de los nombres que los conquistadores le pusieron fue “Valle de las hamacas” por la constante actividad volcánica. Muchas desgracias han ocurrido durante la historia por ello. Como los pipiles acechaban a los colonizadores, Diego de Alvarado tuvo que trasladar la capital al “Valle de la Bermuda”, ubicado en las cercanías de Suchitoto (Cuscatlán) en 1528. </br>
+
+Ese lugar era árido y frecuentemente castigado por tormentas eléctricas, lo que obligó a los españoles a regresar al valle de Quetzalcoatitán en 1545. Pero ya no se asentaron en el valle anterior, sino que construyeron una nueva villa en las orillas del río Acelhuate, poniéndola bajo la advocación del Divino Salvador del Mundo, en honor de quien se celebran las fiestas patronales a principios de agosto cada año en la actualidad. San Salvador posee una extensión territorial de 886,15 kilómetros cuadrados y su población es de al rededor de dos millones y medio de personas. </br>
+
+</p>
+
+<br />
+<br />
+Poblacion 2 266 387 hab.(2006) </div>
+<div class="post"><!-- Class en la cual haremos uso para elaborar una lista de los peronajes y alcaldes y las fiestas patronales -->
+
+
+<h2>Departamento de San Salvador</h2>
+<p>
+  
+  Alrededor del lo. de abril de 1525, fundaron la villa de San Salvador. A mediados del 27 de septiembre de 1546, partieron rumbo a España el Procurador de Guatemala don Hernán Méndez de Sotomayor y el Procurador de San Salvador don Alfonso de Oliveros, quienes llevaban instrucciones del cabildo de la villa para que gestionaran en la Corte el título de ciudad para esta Colonia. El 12 de junio de 1824, el Primer Congreso Constituyente Salvadoreño, decretó que el nombre de la antigua Intendencia de San Salvador, a la que se unió el territorio de la antigua Alcaldía Mayor de Sonsonate, sería Estado de El Salvador.
+</br>
+
+   San Salvador fue designada capital de ese Estado y del departamento de igual nombre. El 31 de julio de 1824, apareció en esta ciudad el primer periódico salvadoreño de nombre El Seminario Político Mercantil. El 28 de enero de 1835 fue declarada la ciudad de San Salvador capital de la República Federal de Centro América. Allí residieron las autoridades federales hasta su completa disolución el 30 de julio de 1839.De 1840 a 1854 San Salvador fue capital de El Salvador; de 1854 a 1858 la capital estuvo interinamente en Cojutepeque y desde este año hasta la fecha, San Salvador ha sido ininterrumpidamente la capital de la República. </br>
+
+</p> 
+
+	
+
+
+	<h3>Fiestas patronales</h3>
+  <li>San Salvador (Cabecera)
+del 1 al 6 de agosto, en honor del Divino Salvador del Mundo.</li>
+
+<li> Aguilares,
+del 6 al 15 de enero, en honor del Señor de las Misericordias.</li>
+
+<li> Ayutuxtepeque,
+del 20 al 30 de enero, en honor de San Sebastián Mártir.</li>
+
+<li> El Paisnal,
+del 11 al 19 de marzo, en honor de San José Patriarca.</li>
+
+<li> San Marcos,
+del 19 al 30 de abril, en honor de San Marcos Evangelista.</li>
+
+<li> Ciudad Delgado,
+del 12 al 25 de julio en honor a Santiago Apóstol.</li>
+
+<li> Santiago Texacuangos,
+del 20 al 25de julio en honor de Santiago Apóstol.</li>
+
+<li> Mejicanos,
+del 7 al 15 de agosto en honor de la Virgen del Tránsito.</li>
+
+<li> Panchimalco,
+del 1 al 15 de septiembre, en honor de la Santa Cruz de Roma.</li>
+
+<li> Guazapa,
+del 25 al 29 de septiembre, en honor de San Miguel Arcángel.</li>
+      
+<li> Nejapa,
+del 20 al 30 de septiembre, en honor de San Jerónimo Doctor.</li>
+
+<li> Rosario de Mora,
+del 1 al 7 de octubre, en honor de Nuestra Señora del Rosario.</li>
+
+<li> Soyapango,
+6 de junio en honor a San Antonio de Padua y la 1era semana de octubre en honor a Nuestra Señora del Rosario.</li>
+
+<li> San Martín,
+del 1 al 12 de noviembre, en honor de San Martín Obispo.</li>
+
+<li>Ilopango,
+del 1 al 16 de noviembre, en honor de San Cristóbal.</li>
+
+<li> Apopa,
+del 19 al 25 de noviembre, en honor de Santa Catarina.</li>
+
+<li> Tonacatepeque,
+del 27 de noviembre al 6 de diciembre, en honor de San Nicolás Obispo.</li>
+
+<li>Cuscatancingo,
+del 21 de noviembre al 10 de diciembre, en honor de la Inmaculada Virgen de Concepción.</li>
+
+<li> Santo Tomás,
+del 10 al 21 de diciembre, en honor de Santo Tomás Apóstol.</li>
+
+<li> Quezaltepeque:
+del 10 al 19 de diciembre en honor de San José.</li>
+
+<li> Tamanique:
+del 19 al 21 de noviembre en honor de la Virgen de la Paz.</li>
+
+<li>San Juan Opico:
+del 17 al 27 de diciembre, en honor de San Juan Evangelista.</li>
+
+<li>Antiguo Cuscatlán:
+27 y 28 de diciembre, en honor de los Niños Inocentes.</li>
+
+
+
+
+</ul>
+</div>
+</div>
+<!-- fin del contenedor y de class post-->
+
+<!-- incio de un div con id "sidebar" para la creacion de la lista de munciipios del departamento -->
+<div id="sidebar">
+<ul>
+<li>
+<h2>Municipios</h2>
+<ul>
+
+
+    <li>Aguilares</li>
+    <li>Apopa</li>
+    <li>Ayutuxtepeque</li>
+    <li>Cuscatancingo</li>
+    <li>Delgado</li>
+    <li>El Paisnal</li>
+    <li>Guazapa</li>
+    <li>Ilopango</li>
+    <li>Mejicanos</li>
+    <li>Nejapa</li>
+    <li>Panchimalco</li>
+    <li>Rosario de Mora</li>
+    <li>San Marcos</li>
+    <li>San Martín</li>
+    <li>San Salvador</li>
+    <li>Santiago Texacuangos</li>
+    <li>Santo Tomás</li>
+    <li>Soyapango</li>
+    <li>Tonacatepeque</li>
+
+
+
+</ul>
+</li>
+<li>
+<h2> Centros Turisticos</h2>
+<ul>
+
+<li>Museo de la Palabra y La Imagen. </li>
+
+<li>Museo de Arte Popular. </li>
+
+<li>Museo de Arte de El Salvador. </li>
+
+<li>Museo Nacional de Antropología. </li>
+
+<li>Museo de Historia Militar. </li>
+
+
+   <li> Café del Volcán</li>
+
+    <li>Las Brumas Grill y Café</li>
+    <li>La Pampa El Volcán</li>
+    <li>Plaza Volcán</li>
+ <li>Parque el Boqueron</li>
+
+
+
+</ul>
+</li>
+</ul>
+</div>
+<!-- fin del sidebar -->
+<div style="clear: both;">&nbsp;</div>
+</div>
+</div>
+<!-- fin de la pagina -->
+<div id="footer">
+<p>Copyright © 2017, Universidad Don Bosco.</p>
+</div>
+</body></html>

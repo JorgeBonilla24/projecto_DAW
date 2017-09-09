@@ -1,0 +1,265 @@
+<!DOCTYPE>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<title>Departamento de la Libertad</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://maps.googleapis.com/maps/api/js?size=400x400&path=fillcolor:0xAA000033%7Ccolor:0xFFFFFF00%7C&key=AIzaSyAwJa0xE53XCf6oDpl6JoN8RiATx7MEzdw&callback=myMap"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<link href="css/styles.css" rel="stylesheet" type="text/css" />
+<!--<script type="text/javascript"  src="js/slider.js" ></script>-->
+<script type="text/javascript" src="js/lalir.js"></script>
+</head>
+
+<body>
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="index.html"><span class="glyphicon glyphicon-home"></span></a>
+    </div>
+    
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active">Inicio</a></li>
+        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Zona Central<span class="caret"></span></a>
+         <ul class="dropdown-menu">
+          <li><a href="LaLibertad.html">La Libertad</a></li>
+          <li><a href="Chalatenango.html">Chalatenango</a></li>
+          <li><a href="Cuscatlan.html">Cuscatlán</a></li>
+          <li><a href="SanSalvador.html">San Salvador</a></li>
+          <li><a href="la paz.html">La Paz</a></li>
+          <li><a href="cabanas.html">Cabañas</a></li>
+          <li><a href="SanVicente.html">San Vicente</a></li>
+        </ul>
+        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Zona Occidental<span class="caret"></span></a>
+         <ul class="dropdown-menu">
+          <li><a href="ahuachapan.html">Ahuachapán</a></li>
+          <li><a href="santa_ana.html">Santa Ana</a></li>
+          <li><a href="sonsonate.html">Sonsonate</a></li>
+        </ul>
+        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Zona Oriental<span class="caret"></span></a>
+         <ul class="dropdown-menu">
+          <li><a href="usulutan.html">Usulután</a></li>
+          <li><a href="san miguel.html">San Miguel</a></li>
+          <li><a href="morazan.html">Morazán</a></li>
+          <li><a href="la union.html">La Unión</a></li>
+        </ul>
+            
+      </ul>
+     
+    </div>
+  </div>
+</nav>
+
+
+<div id="header">
+<div id="logo"><!--creacion del id en el cual se colocara como un header el nombre del departamento-->
+<h1>La Libertad</h1>
+</div>
+<div id="splash">
+	
+<div id="googleMap" class = "google" style=""></div>	
+<!--<slider de algunas img de los depa.>-->
+
+<div = id="reg">
+
+
+<!--Creacion del slider-->
+<div class="slider"   >
+  <img class="mySlides" src="images/libertad0.jpg" >
+  <img class="mySlides" src="images/libertad1.jpg"      >
+  <img class="mySlides" src="images/libertad2.jpg"     >
+</div>
+
+</div>
+
+<!-- Inicio de la pagina -->
+
+<div id="pagina"><!-- id donde se agregara la informacion de la pagina-->
+<div id="contenedor">
+<div class="post">
+<h1 class="tittle">Historia de La Libertad</h1>
+<p class="descr">Fue creado como departamento el 28 de enero de 1865, mediante Decreto Legislativo emitido durante la administración del doctor Francisco Dueñas. La extensión territorial de La Libertad es de 1,652.88 kilómetros cuadrados y posee una población de unos 445,000 habitantes, según el censo poblacional de 2007. Su área geográfica cubre desde ruinas prehispánicas, así como edificaciones coloniales, poblaciones determinantes para la historia del país, las más fértiles zonas agrícolas y hermosas playas. Su clima se caracteriza por ser caluroso debido a la cercanía de la costa y de valles bajos, pero también se experimenta clima templado e incluso frío en algunas regiones.
+</p>
+
+<br />
+<br />
+842,624 hab. </div>
+<div class="post"><!-- Class en la cual haremos uso para elaborar una lista de los peronajes y alcaldes y las fiestas patronales -->
+<h2>Personajes sobresalientes</h2>
+<p>Algunos de los personajes sobresalientes del Departamento de San Vicente son:</p>
+<ul>
+<li>Poeta: Kenny Rodriguez</li>
+
+
+<h2>Alcaldes</h2>
+<li>Antiguo Cuscatlán
+Alcalde Municipal: Zoila Milagro Navas</li>
+<li>Chiltiupán
+Alcalde Municipal: Jorge Luis Díaz Morales</li>
+<li>Ciudad Arce
+Alcalde Municipal: José Alfredo Contreras Villalta</li>
+<li>Colón
+Alcalde Municipal: Guillermo Guevara Huezo</li>
+<li>Comasagua
+Alcalde Municipal: José Ricardo Reyes Rosales</li>
+<li>Huizúcar
+Alcalde Municipal: Marina Elizabeth Avilés Dueñas</li>
+<li>Jayaque
+Alcalde Municipal: Pánfilo Santos Mancía Velásquez</li>
+<li>Jicalapa
+Alcalde Municipal: José Salvador Menjivar Miranda</li>
+<li>La Libertad
+Alcalde Municipal: Miguel Ángel Jiménez Aguilera</li>
+<li>Nuevo Cuscatlán
+Alcalde Municipal: Irma Michelle Sol de Castro</li>
+<li>Quezaltepeque
+Alcalde Municipal: Elio Valdemar Lemus Osorio</li>
+<li>Sacacoyo
+Alcalde Municipal: Pedro Leopoldo Montoya</li>
+<li>
+San José Villanueva
+Alcalde Municipal: Pedro Alfonso Durán Ruano</li>
+<li>San Juan Opico
+Alcalde Municipal: Ramón Antonio Trigueros Alvarado</li>
+<li>San Matías
+Alcalde Municipal: Virgilio Martínez Barillas</li>
+<li>San Pablo Tacachico
+Alcalde Municipal: Mario Alberto Castillo Villanueva</li>
+<li>Santa Tecla
+Alcalde Municipal: Roberto José D`Aubuisson Munguía</li>
+<li>Talnique
+Alcalde Municipal: Juan Antonio Fuentes Escobar</li>
+<li>Tamanique
+Alcalde Municipal: Ruth Aida Beltrán</li>
+<li>Teotepeque
+Alcalde Municipal: Alfonso Arévalo Guillén</li>
+<li>Tepecoyo
+Alcalde Municipal: Ana Janet González Sermeño</li>
+<li>Zaragoza
+Alcalde Municipal: Carlos Javier Guevara Turcios</li>
+
+	
+
+	<h3>Fiestas patronales</h3>
+  <li>Santa Tecla: (cabecera),
+del 1 al 31 de diciembre, en honor al nacimiento del Niño Jesús.
+</li>
+  <li>Tepecoyo:
+del 1 al 6 de enero, en honor de San Esteban Mártir.
+</li>
+  <li>Colón:
+del 1 al 15 de enero en honor al Cristo de Esquipulas y del 1 al 11 de febrero en honor a Nuestra Señora de Lourdes.
+</li>
+  <li>San Matías:
+del 14 al 24 de febrero, en honor de San Matías.
+</li>
+  <li> Nuevo Cuscatlán:
+19 de marzo en honor de San José.
+</li>
+  <li>Chiltiupán:
+del 23 al 25 de abril, en honor a San Marcos Evangelista, y del 3 al 5 de agosto, en honor a Santo Domingo de Guzmán.</li>
+  <li>Teotepeque:
+del 27 al 29 de junio, en honor de San Pedro Apóstol.
+</li>
+  <li>Jayaque:
+del 15 al 20 de enero en honor a san Sebastián Mártir y del 21 al 26 de julio en honor a San Cristóbal.
+</li>
+  <li>Talnique:
+3era semana de febrero, fiesta titular a San Antonio de Padua y del 23 al 25 de agosto, en honor de San Luis Rey de Francia.
+</li>
+  <li>Comasagua:
+15 al 21 de septiembre, en honor de San Mateo.
+</li>
+  <li>Huizúcar:
+del 17 al 29 de septiembre, en honor de San Miguel Arcángel.
+</li>
+  <li>Zaragoza:
+del 8 al 12 de octubre, en honor de Nuestra Señora del Pilar.
+</li>
+  <li>Jicalapa:
+del 19 al 21 de octubre, en honor de Santa Úrsula.
+</li>
+  <li>Ciudad Arce:
+1 al 8 de diciembre, en honor de la Inmaculada Virgen de Concepción.</li>
+  <li>Ciudad de La Libertad:
+23 y 24 de octubre en honor a San Rafael Arcángel y del 1 al 8 de diciembre en honor de la Inmaculada Virgen de Concepción</li>
+  <li>Sacacoyo:
+del 14 al 21 de diciembre, en honor de San Simón.</li>
+  <li>San Pedro Tacachico:
+del 1 al 13 de diciembre, en honor de San Pablo Apóstol. </li>
+<li>Quezaltepeque:
+del 10 al 19 de diciembre en honor de San José.</li>
+<li>Tamanique:
+del 19 al 21 de noviembre en honor de la Virgen de la Paz.</li>
+<li>San Juan Opico:
+del 17 al 27 de diciembre, en honor de San Juan Evangelista.</li>
+<li>Antiguo Cuscatlán:
+27 y 28 de diciembre, en honor de los Niños Inocentes.</li>
+</ul>
+</div>
+</div>
+<!-- fin del contenedor y de class post-->
+
+<!-- incio de un div con id "sidebar" para la creacion de la lista de munciipios del departamento -->
+<div id="sidebar">
+<ul>
+<li>
+<h2>Municipios</h2>
+<ul>
+<li>Antiguo Cuscatlán</li> 
+<li>Chiltiupán</li> 
+<li>Ciudad Arce</li> 
+<li>Colón</li> 
+<li>Comasagua</li> 
+<li>Huizúcar</li> 
+<li>Jayaque</li> 
+<li>Jicalapa </li>
+<li>La Libertad</li> 
+<li>Santa Tecla</li> 
+<li>Nuevo Cuscatlán</li> 
+<li>San Juan Opico</li> 
+<li>Quezaltepeque</li> 
+<li>Sacacoyo</li> 
+<li>San José Villanueva</li> 
+<li>San Matías</li> 
+<li>San Pablo</li> 
+<li>Tacachico</li> 
+<li>Talnique</li> 
+<li>Tamanique</li> 
+<li>Teotepeque</li> 
+<li>Tepecoyo</li> 
+<li>Zaragoza</li>
+
+</ul>
+</li>
+<li>
+<h2> Centros Turisticos</h2>
+<ul>
+<li>Volcan de San Salvador</li>
+<li>Joya de Ceren</li>
+<li>San Andres</li>
+<li>Jardin Botanico Plan de la Laguna</li>
+<li>Paseo el Carmen</li>
+<li>Parque el Bicentenario</li>
+<li>Puerta del Diablo</li>
+<li>Parque Los Chrros</li>
+<li>El Cafetalon</li>
+</li>
+</ul>
+</div>
+<!-- fin del sidebar -->
+<div style="clear: both;">&nbsp;</div>
+</div>
+</div>
+<!-- fin de la pagina -->
+<div id="footer">
+<p>Copyright © 2017, Universidad Don Bosco.</p>
+</div>
+</body></html>
